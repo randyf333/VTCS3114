@@ -1,0 +1,39 @@
+insert Taylor Swift<SEP>Love Story
+insert Taylor Swift<SEP>Blank Space
+insert Ed Sheeran<SEP>Shape of You
+insert Ed Sheeran<SEP>Perfect
+insert Adele<SEP>Someone Like You
+insert The Weeknd<SEP>Blinding Lights
+insert Coldplay<SEP>Fix You
+print graph
+remove song Love Story
+insert Taylor Swift<SEP>You Belong With Me
+insert Beyonce<SEP>Halo
+insert Beyonce<SEP>Crazy in Love
+insert Justin Bieber<SEP>Sorry
+insert Justin Bieber<SEP>Love Yourself
+print graph
+remove artist Adele
+insert Billie Eilish<SEP>Bad Guy
+insert Billie Eilish<SEP>Ocean Eyes
+insert Dua Lipa<SEP>Levitating
+insert Dua Lipa<SEP>Don’t Start Now
+remove song Perfect
+insert Ed Sheeran<SEP>Castle on the Hill
+print graph
+remove song Sorry
+remove artist Coldplay
+insert Lady Gaga<SEP>Shallow
+insert Lady Gaga<SEP>Bad Romance
+insert Shawn Mendes<SEP>Treat You Better
+insert Shawn Mendes<SEP>In My Blood
+print graph
+remove song Blinding Lights
+remove artist The Weeknd
+insert Ariana Grande<SEP>7 rings
+insert Ariana Grande<SEP>Thank U, Next
+insert Maroon 5<SEP>Memories
+insert Maroon 5<SEP>Sugar
+print graph
+remove song Abracadabra
+remove artist Simon Cowell

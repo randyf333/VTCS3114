@@ -1,0 +1,61 @@
+|Taylor Swift| is added to the Artist database.
+|Love Story| is added to the Song database.
+|Blank Space| is added to the Song database.
+|Ed Sheeran| is added to the Artist database.
+|Shape of You| is added to the Song database.
+|Perfect| is added to the Song database.
+|Adele| is added to the Artist database.
+|Someone Like You| is added to the Song database.
+|The Weeknd| is added to the Artist database.
+Song hash table size doubled.
+|Blinding Lights| is added to the Song database.
+|Coldplay| is added to the Artist database.
+|Fix You| is added to the Song database.
+There are 5 connected components
+The largest connected component has 3 elements
+|Love Story| is removed from the Song database.
+|You Belong With Me| is added to the Song database.
+Artist hash table size doubled.
+|Beyonce| is added to the Artist database.
+|Halo| is added to the Song database.
+|Crazy in Love| is added to the Song database.
+|Justin Bieber| is added to the Artist database.
+|Sorry| is added to the Song database.
+Song hash table size doubled.
+|Love Yourself| is added to the Song database.
+There are 7 connected components
+The largest connected component has 3 elements
+|Adele| is removed from the Artist database.
+|Billie Eilish| is added to the Artist database.
+|Bad Guy| is added to the Song database.
+|Ocean Eyes| is added to the Song database.
+|Dua Lipa| is added to the Artist database.
+|Levitating| is added to the Song database.
+|Don’t Start Now| is added to the Song database.
+|Perfect| is removed from the Song database.
+|Castle on the Hill| is added to the Song database.
+There are 9 connected components
+The largest connected component has 3 elements
+|Sorry| is removed from the Song database.
+|Coldplay| is removed from the Artist database.
+|Lady Gaga| is added to the Artist database.
+|Shallow| is added to the Song database.
+|Bad Romance| is added to the Song database.
+|Shawn Mendes| is added to the Artist database.
+|Treat You Better| is added to the Song database.
+|In My Blood| is added to the Song database.
+There are 11 connected components
+The largest connected component has 3 elements
+|Blinding Lights| is removed from the Song database.
+|The Weeknd| is removed from the Artist database.
+|Ariana Grande| is added to the Artist database.
+|7 rings| is added to the Song database.
+|Thank U, Next| is added to the Song database.
+|Maroon 5| is added to the Artist database.
+|Memories| is added to the Song database.
+Song hash table size doubled.
+|Sugar| is added to the Song database.
+There are 12 connected components
+The largest connected component has 3 elements
+|Abracadabra| does not exist in the Song database.
+|Simon Cowell| does not exist in the Artist database.
