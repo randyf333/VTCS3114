@@ -1,0 +1,164 @@
+insert 12
+Computational Biology and Bioinformatics in CS at Virginia Tech
+      0610071600       60     80     60 30
+Bioinformatics computation_biology Biology Computer_Science VT Virginia_Tech
+    Introduction to   bioinformatics and computation biology
+
+insert 13
+Advanced Algorithms and Data Structures
+      0805071400       90     45     35 50
+Algorithms Data_Structures Computer_Science Optimization Graph_Theory
+    Study of advanced algorithms including graph theory and optimization techniques
+
+insert 14
+Machine Learning for Data Science
+      0915081030       120    60     75 70
+Machine_Learning Data_Science AI Python R Neural_Networks
+    Fundamentals of machine learning with applications in data science using Python and R
+
+insert 15
+Introduction to Quantum Computing
+      1123091200       75     40     50 65
+Quantum_Computing Qubits Quantum_Algorithms Computer_Science Physics
+    Basics of quantum computing, including qubits and quantum algorithms
+
+insert 16
+Cybersecurity and Cryptography
+      1004090900       60     50     45 40
+Cybersecurity Cryptography Information_Security Encryption Cyber_Defense
+    Overview of cybersecurity threats and cryptography techniques for data protection
+
+insert 17
+Natural Language Processing with Python
+      0827071015       90     55     65 55
+NLP Natural_Language_Processing Python AI Machine_Learning Text_Mining
+    Introduction to NLP concepts and tools with a focus on Python-based text mining techniques
+
+insert 18
+Ethical Hacking and Network Security
+      0315110930       120    70     80 90
+Ethical_Hacking Network_Security Penetration_Testing Firewalls Intrusion_Detection
+    Learn ethical hacking techniques to secure networks and identify vulnerabilities
+
+insert 19
+Cloud Computing and Distributed Systems
+      0702121430       150    65     85 100
+Cloud_Computing Distributed_Systems Virtualization AWS Azure Scalability
+    In-depth exploration of cloud computing architectures and distributed systems design
+
+insert 20
+Big Data Analytics with Hadoop and Spark
+      0920111330       100    80     55 85
+Big_Data Analytics Hadoop Spark Distributed_Computing Data_Processing
+    Introduction to big data analytics using Hadoop and Apache Spark frameworks
+
+insert 21
+Game Development with Unity
+      0406181600       180    75     70 120
+Game_Development Unity C# Graphics_Programming 3D_Modeling Animation
+    Learn game development using Unity, focusing on 3D modeling and animation with C#
+
+delete 18
+
+print date
+print keyword
+print location
+print cost
+print ID
+
+search ID 14
+search cost 30 90
+search date 0315110930 1004090900
+search keyword "Python"
+
+insert 22
+Artificial Intelligence and Deep Learning
+      0610151500       130    90     85 95
+AI Deep_Learning Neural_Networks TensorFlow PyTorch Machine_Learning
+    Dive deep into AI with a focus on neural networks and deep learning using TensorFlow and PyTorch
+
+insert 23
+Introduction to Data Mining
+      0221091100       110    55     65 60
+Data_Mining Clustering Decision_Trees Big_Data Machine_Learning
+    Introductory course on data mining concepts, including clustering and decision trees
+
+insert 24
+Operating Systems and Networks
+      0510181200       90     60     70 55
+Operating_Systems Networking Process_Management Distributed_Computing
+    Understanding operating systems and networking fundamentals
+
+delete 15
+
+delete 100
+
+print date
+print keyword
+print cost
+print ID
+
+search ID 21
+search cost 40 120
+search date 0610071600 1123091200
+search keyword "AI"
+
+search ID 100
+
+insert 25
+High-Performance Computing
+      1212181500       160    32000  32000 150
+High_Performance_Computing Parallel_Computing Supercomputers Scalability
+    Study of high-performance computing systems, supercomputers, and scalability techniques
+
+insert 26
+Introduction to Robotics
+      0505071010       120    -32768 -32768 50
+Robotics Artificial_Intelligence Automation Mechanics Sensors
+    Fundamentals of robotics with a focus on automation and sensor systems
+
+print date
+print keyword
+print location
+print cost
+print ID
+
+// Edge case: Delete seminar with extreme values for x and y coordinates
+delete 25
+
+// Edge case: Delete seminar with minimal values for x and y coordinates
+delete 26
+
+search keyword "Bioinformatics"
+search keyword "Data_Mining"
+search keyword "Quantum_Computing"
+search keyword "NotExistingKeyword"
+
+insert 27
+Introduction to Ethical AI
+      0908181100       110    90     60 80
+Ethical_AI Ethics Machine_Learning Bias_Fairness AI_Safety
+    Exploration of ethical issues in artificial intelligence including fairness and bias
+
+search keyword "Ethics"
+search keyword "Robotics"
+search keyword "Hadoop"
+search keyword "Fairness"
+
+delete 22
+
+search keyword "Deep_Learning"
+
+insert 28
+Advanced Penetration Testing
+      0104190800       140    100    50 90
+Penetration_Testing Cybersecurity Red_Teaming Firewalls Offensive_Security
+    Advanced techniques for penetration testing and offensive security practices
+
+search keyword "Cybersecurity"
+search keyword "Offensive_Security"
+
+delete 28
+
+print ID
+print keyword

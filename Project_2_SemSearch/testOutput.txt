@@ -1,0 +1,674 @@
+Location Tree:
+E
+ID Tree:
+This tree is empty
+Search FAILED -- There is no record with ID 1
+Seminars matching keyword VT:
+Insert FAILED - Bad x, y coordinates: -1, 10
+Insert FAILED - Bad x, y coordinates: 10, 128
+Insert FAILED - Bad x, y coordinates: 128, 10
+Insert FAILED - Bad x, y coordinates: 10, -2
+Successfully inserted record with ID 1
+ID: 1, Title: Overview of HCI Research at VT
+Date: 0610051600, Length: 90, X: 10, Y: 10, Cost: 45
+Description: This seminar will present an overview of HCI research at VT
+Keywords: HCI, Computer_Science, VT, Virginia_Tech
+Successfully inserted record with ID 2
+ID: 2, Title: Computational Biology and Bioinformatics in CS at Virginia Tech
+Date: 0610071600, Length: 60, X: 10, Y: 10, Cost: 30
+Description: Introduction to   bioinformatics and computation biology
+Keywords: Bioinformatics, computation_biology, Biology, Computer_Science, VT, Virginia_Tech
+Successfully inserted record with ID 10
+ID: 10, Title: Computing Systems Research at VT
+Date: 0701250830, Length: 30, X: 30, Y: 10, Cost: 17
+Description: Seminar about the      Computing systems research at      VT
+Keywords: high_performance_computing, grids, VT, computer, science
+Successfully inserted record with ID 3
+ID: 3, Title: Overview of HPC and CSE Research at VT
+Date: 1203301125, Length: 35, X: 0, Y: 0, Cost: 25
+Description: Learn what kind of    research is done on HPC  and CSE at VT
+Keywords: HPC, CSE, computer_science
+ID Tree:
+            (null)
+                \
+                (1)
+                /
+        (null)
+            \
+            (2)
+            /
+(null)
+    \
+    (3)
+    /
+(null)
+        \
+        (10)
+        /
+    (null)
+Number of records: 4
+Date Tree:
+            (null)
+                \
+                (0610051600)
+                /
+        (null)
+            \
+            (0610071600)
+            /
+    (null)
+        \
+        (0701250830)
+        /
+(null)
+    \
+    (1203301125)
+    /
+(null)
+Number of records: 4
+Keyword Tree:
+                    (null)
+                        \
+                        (Bioinformatics)
+                        /
+                (null)
+                    \
+                    (Biology)
+                    /
+        (null)
+            \
+            (CSE)
+            /
+        (null)
+                \
+                (Computer_Science)
+                /
+            (null)
+                            \
+                            (Computer_Science)
+                            /
+                        (null)
+                                \
+                                (HCI)
+                                /
+            (null)
+                \
+                (HPC)
+                /
+            (null)
+                    \
+                    (VT)
+                    /
+                (null)
+                        \
+                        (VT)
+                        /
+                    (null)
+                            \
+                            (VT)
+                            /
+                (null)
+                    \
+                    (Virginia_Tech)
+                    /
+                (null)
+                        \
+                        (Virginia_Tech)
+                        /
+                (null)
+                    \
+                    (computation_biology)
+                    /
+    (null)
+        \
+        (computer)
+        /
+(null)
+    \
+    (computer_science)
+    /
+(null)
+            \
+            (grids)
+            /
+        (null)
+                \
+                (high_performance_computing)
+                /
+        (null)
+            \
+            (science)
+            /
+        (null)
+Number of records: 18
+Cost Tree:
+    (null)
+        \
+        (17)
+        /
+(null)
+    \
+    (25)
+    /
+(null)
+            \
+            (30)
+            /
+        (null)
+                \
+                (45)
+                /
+            (null)
+Number of records: 4
+Location Tree:
+                            (I)
+                        (E)
+                        (I)
+                    (E)
+                    (I)
+                (E)
+                (I)
+            (E)
+            (I)
+        (Leaf with 1 objects: 10)
+        (I)
+    (E)
+    (I)
+(Leaf with 2 objects: 1 2)
+(Leaf with 1 objects: 3)
+Insert FAILED - There is already a record with ID 10
+Seminars matching keyword VT:
+ID: 10, Title: Computing Systems Research at VT
+Date: 0701250830, Length: 30, X: 30, Y: 10, Cost: 17
+Description: Seminar about the      Computing systems research at      VT
+Keywords: high_performance_computing, grids, VT, computer, science
+ID: 2, Title: Computational Biology and Bioinformatics in CS at Virginia Tech
+Date: 0610071600, Length: 60, X: 10, Y: 10, Cost: 30
+Description: Introduction to   bioinformatics and computation biology
+Keywords: Bioinformatics, computation_biology, Biology, Computer_Science, VT, Virginia_Tech
+ID: 1, Title: Overview of HCI Research at VT
+Date: 0610051600, Length: 90, X: 10, Y: 10, Cost: 45
+Description: This seminar will present an overview of HCI research at VT
+Keywords: HCI, Computer_Science, VT, Virginia_Tech
+Found record with ID 1:
+ID: 1, Title: Overview of HCI Research at VT
+Date: 0610051600, Length: 90, X: 10, Y: 10, Cost: 45
+Description: This seminar will present an overview of HCI research at VT
+Keywords: HCI, Computer_Science, VT, Virginia_Tech
+Seminars with costs in range 30 to 50:
+ID: 2, Title: Computational Biology and Bioinformatics in CS at Virginia Tech
+Date: 0610071600, Length: 60, X: 10, Y: 10, Cost: 30
+Description: Introduction to   bioinformatics and computation biology
+Keywords: Bioinformatics, computation_biology, Biology, Computer_Science, VT, Virginia_Tech
+ID: 1, Title: Overview of HCI Research at VT
+Date: 0610051600, Length: 90, X: 10, Y: 10, Cost: 45
+Description: This seminar will present an overview of HCI research at VT
+Keywords: HCI, Computer_Science, VT, Virginia_Tech
+7 nodes visited in this search
+Seminars with dates in range 0 to 1:
+ID: 1, Title: Overview of HCI Research at VT
+Date: 0610051600, Length: 90, X: 10, Y: 10, Cost: 45
+Description: This seminar will present an overview of HCI research at VT
+Keywords: HCI, Computer_Science, VT, Virginia_Tech
+ID: 2, Title: Computational Biology and Bioinformatics in CS at Virginia Tech
+Date: 0610071600, Length: 60, X: 10, Y: 10, Cost: 30
+Description: Introduction to   bioinformatics and computation biology
+Keywords: Bioinformatics, computation_biology, Biology, Computer_Science, VT, Virginia_Tech
+ID: 10, Title: Computing Systems Research at VT
+Date: 0701250830, Length: 30, X: 30, Y: 10, Cost: 17
+Description: Seminar about the      Computing systems research at      VT
+Keywords: high_performance_computing, grids, VT, computer, science
+8 nodes visited in this search
+Record with ID 1 successfully deleted from the database
+Delete FAILED -- There is no record with ID 12
+ID Tree:
+        (null)
+            \
+            (2)
+            /
+(null)
+    \
+    (3)
+    /
+(null)
+        \
+        (10)
+        /
+    (null)
+Number of records: 3
+Seminars matching keyword CSE:
+ID: 3, Title: Overview of HPC and CSE Research at VT
+Date: 1203301125, Length: 35, X: 0, Y: 0, Cost: 25
+Description: Learn what kind of    research is done on HPC  and CSE at VT
+Keywords: HPC, CSE, computer_science
+Seminars matching keyword computer_science:
+ID: 3, Title: Overview of HPC and CSE Research at VT
+Date: 1203301125, Length: 35, X: 0, Y: 0, Cost: 25
+Description: Learn what kind of    research is done on HPC  and CSE at VT
+Keywords: HPC, CSE, computer_science
+Seminars matching keyword grids:
+ID: 10, Title: Computing Systems Research at VT
+Date: 0701250830, Length: 30, X: 30, Y: 10, Cost: 17
+Description: Seminar about the      Computing systems research at      VT
+Keywords: high_performance_computing, grids, VT, computer, science
+Seminars matching keyword science:
+ID: 10, Title: Computing Systems Research at VT
+Date: 0701250830, Length: 30, X: 30, Y: 10, Cost: 17
+Description: Seminar about the      Computing systems research at      VT
+Keywords: high_performance_computing, grids, VT, computer, science
+Location Tree:
+                            (I)
+                        (E)
+                        (I)
+                    (E)
+                    (I)
+                (E)
+                (I)
+            (E)
+            (I)
+        (Leaf with 1 objects: 10)
+        (I)
+    (E)
+    (I)
+(Leaf with 1 objects: 2)
+(Leaf with 1 objects: 3)
+Record with ID 2 successfully deleted from the database
+Location Tree:
+                    (I)
+                (E)
+                (I)
+            (E)
+            (I)
+        (E)
+        (I)
+    (E)
+    (I)
+(Leaf with 1 objects: 10)
+(Leaf with 1 objects: 3)
+Successfully inserted record with ID 5
+ID: 5, Title: Computational Biology and Bioinformatics in CS at Virginia Tech
+Date: 0610071600, Length: 60, X: 10, Y: 10, Cost: 30
+Description: Introduction to   bioinformatics and computation biology
+Keywords: Bioinformatics, computation_biology, Biology, Computer_Science, VT, Virginia_Tech
+Location Tree:
+                            (I)
+                        (E)
+                        (I)
+                    (E)
+                    (I)
+                (E)
+                (I)
+            (E)
+            (I)
+        (Leaf with 1 objects: 10)
+        (I)
+    (E)
+    (I)
+(Leaf with 1 objects: 5)
+(Leaf with 1 objects: 3)
+Successfully inserted record with ID 8
+ID: 8, Title: Computational Biology and Bioinformatics in CS at Virginia Tech
+Date: 0610071600, Length: 60, X: 10, Y: 10, Cost: 30
+Description: Introduction to   bioinformatics and computation biology
+Keywords: Bioinformatics, computation_biology, Biology, Computer_Science, VT, Virginia_Tech
+Successfully inserted record with ID 12
+ID: 12, Title: Computational Biology and Bioinformatics in CS at Virginia Tech
+Date: 0610071600, Length: 60, X: 10, Y: 10, Cost: 30
+Description: Introduction to   bioinformatics and computation biology
+Keywords: Bioinformatics, computation_biology, Biology, Computer_Science, VT, Virginia_Tech
+Location Tree:
+                            (I)
+                        (E)
+                        (I)
+                    (E)
+                    (I)
+                (E)
+                (I)
+            (E)
+            (I)
+        (Leaf with 1 objects: 10)
+        (I)
+    (E)
+    (I)
+(Leaf with 3 objects: 5 8 12)
+(Leaf with 1 objects: 3)
+Record with ID 8 successfully deleted from the database
+Location Tree:
+                            (I)
+                        (E)
+                        (I)
+                    (E)
+                    (I)
+                (E)
+                (I)
+            (E)
+            (I)
+        (Leaf with 1 objects: 10)
+        (I)
+    (E)
+    (I)
+(Leaf with 2 objects: 5 12)
+(Leaf with 1 objects: 3)
+Record with ID 12 successfully deleted from the database
+Location Tree:
+                            (I)
+                        (E)
+                        (I)
+                    (E)
+                    (I)
+                (E)
+                (I)
+            (E)
+            (I)
+        (Leaf with 1 objects: 10)
+        (I)
+    (E)
+    (I)
+(Leaf with 1 objects: 5)
+(Leaf with 1 objects: 3)
+Record with ID 10 successfully deleted from the database
+Location Tree:
+                            (I)
+                        (E)
+                        (I)
+                    (E)
+                    (I)
+                (E)
+                (I)
+            (E)
+            (I)
+        (E)
+        (I)
+    (E)
+    (I)
+(Leaf with 1 objects: 5)
+(Leaf with 1 objects: 3)
+Record with ID 5 successfully deleted from the database
+Location Tree:
+(Leaf with 1 objects: 3)
+Record with ID 3 successfully deleted from the database
+Location Tree:
+E
+Successfully inserted record with ID 13
+ID: 13, Title: Advanced Algorithms and Data Structures
+Date: 0805071400, Length: 90, X: 45, Y: 35, Cost: 50
+Description: Study of advanced algorithms including graph theory and optimization techniques
+Keywords: Algorithms, Data_Structures, Computer_Science, Optimization, Graph_Theory
+Successfully inserted record with ID 14
+ID: 14, Title: Machine Learning for Data Science
+Date: 0915081030, Length: 120, X: 60, Y: 75, Cost: 70
+Description: Fundamentals of machine learning with applications in data science using Python and R
+Keywords: Machine_Learning, Data_Science, AI, Python, R, Neural_Networks
+Successfully inserted record with ID 15
+ID: 15, Title: Introduction to Quantum Computing
+Date: 1123091200, Length: 75, X: 40, Y: 50, Cost: 65
+Description: Basics of quantum computing, including qubits and quantum algorithms
+Keywords: Quantum_Computing, Qubits, Quantum_Algorithms, Computer_Science, Physics
+Successfully inserted record with ID 16
+ID: 16, Title: Cybersecurity and Cryptography
+Date: 1004090900, Length: 60, X: 50, Y: 45, Cost: 40
+Description: Overview of cybersecurity threats and cryptography techniques for data protection
+Keywords: Cybersecurity, Cryptography, Information_Security, Encryption, Cyber_Defense
+Successfully inserted record with ID 17
+ID: 17, Title: Natural Language Processing with Python
+Date: 0827071015, Length: 90, X: 55, Y: 65, Cost: 55
+Description: Introduction to NLP concepts and tools with a focus on Python-based text mining techniques
+Keywords: NLP, Natural_Language_Processing, Python, AI, Machine_Learning, Text_Mining
+Successfully inserted record with ID 18
+ID: 18, Title: Ethical Hacking and Network Security
+Date: 0315110930, Length: 120, X: 70, Y: 80, Cost: 90
+Description: Learn ethical hacking techniques to secure networks and identify vulnerabilities
+Keywords: Ethical_Hacking, Network_Security, Penetration_Testing, Firewalls, Intrusion_Detection
+Successfully inserted record with ID 19
+ID: 19, Title: Cloud Computing and Distributed Systems
+Date: 0702121430, Length: 150, X: 65, Y: 85, Cost: 100
+Description: In-depth exploration of cloud computing architectures and distributed systems design
+Keywords: Cloud_Computing, Distributed_Systems, Virtualization, AWS, Azure, Scalability
+Successfully inserted record with ID 20
+ID: 20, Title: Big Data Analytics with Hadoop and Spark
+Date: 0920111330, Length: 100, X: 80, Y: 55, Cost: 85
+Description: Introduction to big data analytics using Hadoop and Apache Spark frameworks
+Keywords: Big_Data, Analytics, Hadoop, Spark, Distributed_Computing, Data_Processing
+Successfully inserted record with ID 21
+ID: 21, Title: Game Development with Unity
+Date: 0406181600, Length: 180, X: 75, Y: 70, Cost: 120
+Description: Learn game development using Unity, focusing on 3D modeling and animation with C#
+Keywords: Game_Development, Unity, C#, Graphics_Programming, 3D_Modeling, Animation
+Successfully inserted record with ID 22
+ID: 22, Title: Artificial Intelligence and Deep Learning
+Date: 0610151500, Length: 130, X: 90, Y: 85, Cost: 95
+Description: Dive deep into AI with a focus on neural networks and deep learning using TensorFlow and PyTorch
+Keywords: AI, Deep_Learning, Neural_Networks, TensorFlow, PyTorch, Machine_Learning
+Seminars matching keyword AI:
+ID: 22, Title: Artificial Intelligence and Deep Learning
+Date: 0610151500, Length: 130, X: 90, Y: 85, Cost: 95
+Description: Dive deep into AI with a focus on neural networks and deep learning using TensorFlow and PyTorch
+Keywords: AI, Deep_Learning, Neural_Networks, TensorFlow, PyTorch, Machine_Learning
+ID: 17, Title: Natural Language Processing with Python
+Date: 0827071015, Length: 90, X: 55, Y: 65, Cost: 55
+Description: Introduction to NLP concepts and tools with a focus on Python-based text mining techniques
+Keywords: NLP, Natural_Language_Processing, Python, AI, Machine_Learning, Text_Mining
+ID: 14, Title: Machine Learning for Data Science
+Date: 0915081030, Length: 120, X: 60, Y: 75, Cost: 70
+Description: Fundamentals of machine learning with applications in data science using Python and R
+Keywords: Machine_Learning, Data_Science, AI, Python, R, Neural_Networks
+Seminars matching keyword Neural_Networks:
+ID: 22, Title: Artificial Intelligence and Deep Learning
+Date: 0610151500, Length: 130, X: 90, Y: 85, Cost: 95
+Description: Dive deep into AI with a focus on neural networks and deep learning using TensorFlow and PyTorch
+Keywords: AI, Deep_Learning, Neural_Networks, TensorFlow, PyTorch, Machine_Learning
+ID: 14, Title: Machine Learning for Data Science
+Date: 0915081030, Length: 120, X: 60, Y: 75, Cost: 70
+Description: Fundamentals of machine learning with applications in data science using Python and R
+Keywords: Machine_Learning, Data_Science, AI, Python, R, Neural_Networks
+Seminars matching keyword Computer_Science:
+ID: 15, Title: Introduction to Quantum Computing
+Date: 1123091200, Length: 75, X: 40, Y: 50, Cost: 65
+Description: Basics of quantum computing, including qubits and quantum algorithms
+Keywords: Quantum_Computing, Qubits, Quantum_Algorithms, Computer_Science, Physics
+ID: 13, Title: Advanced Algorithms and Data Structures
+Date: 0805071400, Length: 90, X: 45, Y: 35, Cost: 50
+Description: Study of advanced algorithms including graph theory and optimization techniques
+Keywords: Algorithms, Data_Structures, Computer_Science, Optimization, Graph_Theory
+Seminars matching keyword TensorFlow:
+ID: 22, Title: Artificial Intelligence and Deep Learning
+Date: 0610151500, Length: 130, X: 90, Y: 85, Cost: 95
+Description: Dive deep into AI with a focus on neural networks and deep learning using TensorFlow and PyTorch
+Keywords: AI, Deep_Learning, Neural_Networks, TensorFlow, PyTorch, Machine_Learning
+Seminars matching keyword Zebra:
+Location Tree:
+                                    (I)
+                                (I)
+                            (I)
+                        (E)
+                        (I)
+                    (E)
+                    (I)
+                (Leaf with 1 objects: 22)
+                (I)
+            (I)
+        (E)
+        (I)
+    (E)
+    (I)
+(Leaf with 1 objects: 18)
+(Leaf with 1 objects: 19)
+            (Leaf with 1 objects: 21)
+                            (Leaf with 1 objects: 20)
+                                (I)
+                            (I)
+                        (I)
+                    (E)
+                    (I)
+                (I)
+            (E)
+            (I)
+        (Leaf with 1 objects: 14)
+        (Leaf with 1 objects: 17)
+                (E)
+                        (E)
+                            (I)
+                        (I)
+                    (I)
+                (Leaf with 1 objects: 16)
+                (I)
+            (Leaf with 1 objects: 15)
+            (Leaf with 1 objects: 13)
+                    (E)
+                        (E)
+Record with ID 14 successfully deleted from the database
+Record with ID 17 successfully deleted from the database
+Location Tree:
+                                    (I)
+                                (I)
+                            (I)
+                        (E)
+                        (I)
+                    (E)
+                    (I)
+                (Leaf with 1 objects: 22)
+                (I)
+            (I)
+        (E)
+        (I)
+    (E)
+    (I)
+(Leaf with 1 objects: 18)
+(Leaf with 1 objects: 19)
+            (Leaf with 1 objects: 21)
+                            (Leaf with 1 objects: 20)
+                                (I)
+                            (E)
+                            (I)
+                        (I)
+                    (I)
+                (Leaf with 1 objects: 16)
+                (I)
+            (Leaf with 1 objects: 15)
+            (Leaf with 1 objects: 13)
+                    (E)
+                        (E)
+Record with ID 22 successfully deleted from the database
+Location Tree:
+                                    (I)
+                                (I)
+                            (I)
+                        (E)
+                        (I)
+                    (E)
+                    (I)
+                (E)
+                (I)
+            (I)
+        (E)
+        (I)
+    (E)
+    (I)
+(Leaf with 1 objects: 18)
+(Leaf with 1 objects: 19)
+            (Leaf with 1 objects: 21)
+                            (Leaf with 1 objects: 20)
+                                (I)
+                            (E)
+                            (I)
+                        (I)
+                    (I)
+                (Leaf with 1 objects: 16)
+                (I)
+            (Leaf with 1 objects: 15)
+            (Leaf with 1 objects: 13)
+                    (E)
+                        (E)
+Record with ID 15 successfully deleted from the database
+Location Tree:
+                                    (I)
+                                (I)
+                            (I)
+                        (E)
+                        (I)
+                    (E)
+                    (I)
+                (E)
+                (I)
+            (I)
+        (E)
+        (I)
+    (E)
+    (I)
+(Leaf with 1 objects: 18)
+(Leaf with 1 objects: 19)
+            (Leaf with 1 objects: 21)
+                            (Leaf with 1 objects: 20)
+                                (I)
+                            (E)
+                            (I)
+                        (I)
+                    (I)
+                (Leaf with 1 objects: 16)
+                (Leaf with 1 objects: 13)
+                    (E)
+                        (E)
+Record with ID 16 successfully deleted from the database
+Location Tree:
+                                    (I)
+                                (I)
+                            (I)
+                        (E)
+                        (I)
+                    (E)
+                    (I)
+                (E)
+                (I)
+            (I)
+        (E)
+        (I)
+    (E)
+    (I)
+(Leaf with 1 objects: 18)
+(Leaf with 1 objects: 19)
+            (Leaf with 1 objects: 21)
+                            (Leaf with 1 objects: 20)
+                                (Leaf with 1 objects: 13)
+Record with ID 18 successfully deleted from the database
+Location Tree:
+                        (I)
+                    (I)
+                (I)
+            (E)
+            (I)
+        (E)
+        (I)
+    (E)
+    (I)
+(Leaf with 1 objects: 19)
+(Leaf with 1 objects: 21)
+                (Leaf with 1 objects: 20)
+                    (Leaf with 1 objects: 13)
+Record with ID 19 successfully deleted from the database
+Location Tree:
+        (I)
+    (I)
+(Leaf with 1 objects: 21)
+(Leaf with 1 objects: 20)
+    (Leaf with 1 objects: 13)
+Record with ID 20 successfully deleted from the database
+Location Tree:
+    (I)
+(Leaf with 1 objects: 21)
+(Leaf with 1 objects: 13)
+Record with ID 21 successfully deleted from the database
+Location Tree:
+(Leaf with 1 objects: 13)
+Seminars matching keyword Zebra:
+Seminars matching keyword TensorFlow:
+Record with ID 13 successfully deleted from the database
+ID Tree:
+This tree is empty
+Keyword Tree:
+This tree is empty
+Date Tree:
+This tree is empty
+Cost Tree:
+This tree is empty
+Location Tree:
+E

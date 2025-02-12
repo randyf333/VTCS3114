@@ -1,0 +1,1732 @@
+Successfully inserted record with ID 12
+ID: 12, Title: Computational Biology and Bioinformatics in CS at Virginia Tech
+Date: 0610071600, Length: 60, X: 80, Y: 60, Cost: 30
+Description: Introduction to   bioinformatics and computation biology
+Keywords: Bioinformatics, computation_biology, Biology, Computer_Science, VT, Virginia_Tech
+Successfully inserted record with ID 13
+ID: 13, Title: Advanced Algorithms and Data Structures
+Date: 0805071400, Length: 90, X: 45, Y: 35, Cost: 50
+Description: Study of advanced algorithms including graph theory and optimization techniques
+Keywords: Algorithms, Data_Structures, Computer_Science, Optimization, Graph_Theory
+Successfully inserted record with ID 14
+ID: 14, Title: Machine Learning for Data Science
+Date: 0915081030, Length: 120, X: 60, Y: 75, Cost: 70
+Description: Fundamentals of machine learning with applications in data science using Python and R
+Keywords: Machine_Learning, Data_Science, AI, Python, R, Neural_Networks
+Successfully inserted record with ID 15
+ID: 15, Title: Introduction to Quantum Computing
+Date: 1123091200, Length: 75, X: 40, Y: 50, Cost: 65
+Description: Basics of quantum computing, including qubits and quantum algorithms
+Keywords: Quantum_Computing, Qubits, Quantum_Algorithms, Computer_Science, Physics
+Successfully inserted record with ID 16
+ID: 16, Title: Cybersecurity and Cryptography
+Date: 1004090900, Length: 60, X: 50, Y: 45, Cost: 40
+Description: Overview of cybersecurity threats and cryptography techniques for data protection
+Keywords: Cybersecurity, Cryptography, Information_Security, Encryption, Cyber_Defense
+Successfully inserted record with ID 17
+ID: 17, Title: Natural Language Processing with Python
+Date: 0827071015, Length: 90, X: 55, Y: 65, Cost: 55
+Description: Introduction to NLP concepts and tools with a focus on Python-based text mining techniques
+Keywords: NLP, Natural_Language_Processing, Python, AI, Machine_Learning, Text_Mining
+Successfully inserted record with ID 18
+ID: 18, Title: Ethical Hacking and Network Security
+Date: 0315110930, Length: 120, X: 70, Y: 80, Cost: 90
+Description: Learn ethical hacking techniques to secure networks and identify vulnerabilities
+Keywords: Ethical_Hacking, Network_Security, Penetration_Testing, Firewalls, Intrusion_Detection
+Successfully inserted record with ID 19
+ID: 19, Title: Cloud Computing and Distributed Systems
+Date: 0702121430, Length: 150, X: 65, Y: 85, Cost: 100
+Description: In-depth exploration of cloud computing architectures and distributed systems design
+Keywords: Cloud_Computing, Distributed_Systems, Virtualization, AWS, Azure, Scalability
+Successfully inserted record with ID 20
+ID: 20, Title: Big Data Analytics with Hadoop and Spark
+Date: 0920111330, Length: 100, X: 80, Y: 55, Cost: 85
+Description: Introduction to big data analytics using Hadoop and Apache Spark frameworks
+Keywords: Big_Data, Analytics, Hadoop, Spark, Distributed_Computing, Data_Processing
+Successfully inserted record with ID 21
+ID: 21, Title: Game Development with Unity
+Date: 0406181600, Length: 180, X: 75, Y: 70, Cost: 120
+Description: Learn game development using Unity, focusing on 3D modeling and animation with C#
+Keywords: Game_Development, Unity, C#, Graphics_Programming, 3D_Modeling, Animation
+Record with ID 18 successfully deleted from the database
+Date Tree:
+                (null)
+                    \
+                    (0406181600)
+                    /
+                (null)
+                        \
+                        (0610071600)
+                        /
+            (null)
+                \
+                (0702121430)
+                /
+            (null)
+                    \
+                    (0805071400)
+                    /
+        (null)
+            \
+            (0827071015)
+            /
+        (null)
+                \
+                (0915081030)
+                /
+(null)
+    \
+    (0920111330)
+    /
+(null)
+        \
+        (1004090900)
+        /
+    (null)
+            \
+            (1123091200)
+            /
+        (null)
+Number of records: 9
+Keyword Tree:
+                            (null)
+                                \
+                                (3D_Modeling)
+                                /
+                            (null)
+                                    \
+                                    (AI)
+                                    /
+                                (null)
+                                        \
+                                        (AI)
+                                        /
+                                (null)
+                                    \
+                                    (AWS)
+                                    /
+                                (null)
+                                            \
+                                            (Algorithms)
+                                            /
+                                (null)
+                                    \
+                                    (Analytics)
+                                    /
+                            (null)
+                                \
+                                (Animation)
+                                /
+                            (null)
+                                        \
+                                        (Azure)
+                                        /
+                                (null)
+                                    \
+                                    (Big_Data)
+                                    /
+                                (null)
+                                                \
+                                                (Bioinformatics)
+                                                /
+                                    (null)
+                                        \
+                                        (Biology)
+                                        /
+                (null)
+                    \
+                    (C#)
+                    /
+                (null)
+                        \
+                        (Cloud_Computing)
+                        /
+                    (null)
+                            \
+                            (Computer_Science)
+                            /
+                        (null)
+                                \
+                                (Computer_Science)
+                                /
+                            (null)
+                                    \
+                                    (Computer_Science)
+                                    /
+            (null)
+                \
+                (Cryptography)
+                /
+        (null)
+            \
+            (Cyber_Defense)
+            /
+        (null)
+                    \
+                    (Cybersecurity)
+                    /
+            (null)
+                \
+                (Data_Processing)
+                /
+            (null)
+                        \
+                        (Data_Science)
+                        /
+                    (null)
+                            \
+                            (Data_Structures)
+                            /
+    (null)
+        \
+        (Distributed_Computing)
+        /
+    (null)
+            \
+            (Distributed_Systems)
+            /
+        (null)
+                \
+                (Encryption)
+                /
+        (null)
+            \
+            (Game_Development)
+            /
+        (null)
+                    \
+                    (Graph_Theory)
+                    /
+(null)
+    \
+    (Graphics_Programming)
+    /
+(null)
+        \
+        (Hadoop)
+        /
+    (null)
+            \
+            (Information_Security)
+            /
+    (null)
+        \
+        (Machine_Learning)
+        /
+    (null)
+                \
+                (Machine_Learning)
+                /
+    (null)
+        \
+        (NLP)
+        /
+(null)
+    \
+    (Natural_Language_Processing)
+    /
+(null)
+            \
+            (Neural_Networks)
+            /
+        (null)
+                        \
+                        (Optimization)
+                        /
+            (null)
+                \
+                (Physics)
+                /
+        (null)
+            \
+            (Python)
+            /
+        (null)
+                    \
+                    (Python)
+                    /
+    (null)
+        \
+        (Quantum_Algorithms)
+        /
+    (null)
+            \
+            (Quantum_Computing)
+            /
+    (null)
+        \
+        (Qubits)
+        /
+    (null)
+                \
+                (R)
+                /
+    (null)
+        \
+        (Scalability)
+        /
+(null)
+    \
+    (Spark)
+    /
+(null)
+            \
+            (Text_Mining)
+            /
+    (null)
+        \
+        (Unity)
+        /
+    (null)
+                                \
+                                (VT)
+                                /
+                        (null)
+                            \
+                            (Virginia_Tech)
+                            /
+                    (null)
+                        \
+                        (Virtualization)
+                        /
+                    (null)
+                                            \
+                                            (computation_biology)
+                                            /
+                                        (null)
+Number of records: 51
+Location Tree:
+                                (I)
+                            (I)
+                        (I)
+                    (E)
+                    (I)
+                (E)
+                (I)
+            (E)
+            (I)
+        (Leaf with 1 objects: 19)
+        (Leaf with 1 objects: 21)
+                        (I)
+                    (E)
+                    (I)
+                (I)
+            (I)
+        (I)
+    (E)
+    (I)
+(Leaf with 1 objects: 12)
+(Leaf with 1 objects: 20)
+        (E)
+            (E)
+                (E)
+                            (I)
+                        (I)
+                    (I)
+                (E)
+                (I)
+            (I)
+        (E)
+        (I)
+    (Leaf with 1 objects: 14)
+    (Leaf with 1 objects: 17)
+            (E)
+                    (E)
+                        (I)
+                    (I)
+                (I)
+            (Leaf with 1 objects: 16)
+            (I)
+        (Leaf with 1 objects: 15)
+        (Leaf with 1 objects: 13)
+                (E)
+                    (E)
+Cost Tree:
+                    (null)
+                        \
+                        (30)
+                        /
+            (null)
+                \
+                (40)
+                /
+            (null)
+                    \
+                    (50)
+                    /
+    (null)
+        \
+        (55)
+        /
+    (null)
+            \
+            (65)
+            /
+        (null)
+                \
+                (70)
+                /
+        (null)
+            \
+            (85)
+            /
+    (null)
+        \
+        (100)
+        /
+(null)
+    \
+    (120)
+    /
+(null)
+Number of records: 9
+ID Tree:
+                                (null)
+                                    \
+                                    (12)
+                                    /
+                            (null)
+                                \
+                                (13)
+                                /
+                        (null)
+                            \
+                            (14)
+                            /
+                    (null)
+                        \
+                        (15)
+                        /
+                (null)
+                    \
+                    (16)
+                    /
+            (null)
+                \
+                (17)
+                /
+        (null)
+            \
+            (19)
+            /
+    (null)
+        \
+        (20)
+        /
+(null)
+    \
+    (21)
+    /
+(null)
+Number of records: 9
+Found record with ID 14:
+ID: 14, Title: Machine Learning for Data Science
+Date: 0915081030, Length: 120, X: 60, Y: 75, Cost: 70
+Description: Fundamentals of machine learning with applications in data science using Python and R
+Keywords: Machine_Learning, Data_Science, AI, Python, R, Neural_Networks
+Seminars with costs in range 30 to 90:
+ID: 12, Title: Computational Biology and Bioinformatics in CS at Virginia Tech
+Date: 0610071600, Length: 60, X: 80, Y: 60, Cost: 30
+Description: Introduction to   bioinformatics and computation biology
+Keywords: Bioinformatics, computation_biology, Biology, Computer_Science, VT, Virginia_Tech
+ID: 16, Title: Cybersecurity and Cryptography
+Date: 1004090900, Length: 60, X: 50, Y: 45, Cost: 40
+Description: Overview of cybersecurity threats and cryptography techniques for data protection
+Keywords: Cybersecurity, Cryptography, Information_Security, Encryption, Cyber_Defense
+ID: 13, Title: Advanced Algorithms and Data Structures
+Date: 0805071400, Length: 90, X: 45, Y: 35, Cost: 50
+Description: Study of advanced algorithms including graph theory and optimization techniques
+Keywords: Algorithms, Data_Structures, Computer_Science, Optimization, Graph_Theory
+ID: 17, Title: Natural Language Processing with Python
+Date: 0827071015, Length: 90, X: 55, Y: 65, Cost: 55
+Description: Introduction to NLP concepts and tools with a focus on Python-based text mining techniques
+Keywords: NLP, Natural_Language_Processing, Python, AI, Machine_Learning, Text_Mining
+ID: 15, Title: Introduction to Quantum Computing
+Date: 1123091200, Length: 75, X: 40, Y: 50, Cost: 65
+Description: Basics of quantum computing, including qubits and quantum algorithms
+Keywords: Quantum_Computing, Qubits, Quantum_Algorithms, Computer_Science, Physics
+ID: 14, Title: Machine Learning for Data Science
+Date: 0915081030, Length: 120, X: 60, Y: 75, Cost: 70
+Description: Fundamentals of machine learning with applications in data science using Python and R
+Keywords: Machine_Learning, Data_Science, AI, Python, R, Neural_Networks
+ID: 20, Title: Big Data Analytics with Hadoop and Spark
+Date: 0920111330, Length: 100, X: 80, Y: 55, Cost: 85
+Description: Introduction to big data analytics using Hadoop and Apache Spark frameworks
+Keywords: Big_Data, Analytics, Hadoop, Spark, Distributed_Computing, Data_Processing
+16 nodes visited in this search
+Seminars with dates in range 0315110930 to 1004090900:
+ID: 21, Title: Game Development with Unity
+Date: 0406181600, Length: 180, X: 75, Y: 70, Cost: 120
+Description: Learn game development using Unity, focusing on 3D modeling and animation with C#
+Keywords: Game_Development, Unity, C#, Graphics_Programming, 3D_Modeling, Animation
+ID: 12, Title: Computational Biology and Bioinformatics in CS at Virginia Tech
+Date: 0610071600, Length: 60, X: 80, Y: 60, Cost: 30
+Description: Introduction to   bioinformatics and computation biology
+Keywords: Bioinformatics, computation_biology, Biology, Computer_Science, VT, Virginia_Tech
+ID: 19, Title: Cloud Computing and Distributed Systems
+Date: 0702121430, Length: 150, X: 65, Y: 85, Cost: 100
+Description: In-depth exploration of cloud computing architectures and distributed systems design
+Keywords: Cloud_Computing, Distributed_Systems, Virtualization, AWS, Azure, Scalability
+ID: 13, Title: Advanced Algorithms and Data Structures
+Date: 0805071400, Length: 90, X: 45, Y: 35, Cost: 50
+Description: Study of advanced algorithms including graph theory and optimization techniques
+Keywords: Algorithms, Data_Structures, Computer_Science, Optimization, Graph_Theory
+ID: 17, Title: Natural Language Processing with Python
+Date: 0827071015, Length: 90, X: 55, Y: 65, Cost: 55
+Description: Introduction to NLP concepts and tools with a focus on Python-based text mining techniques
+Keywords: NLP, Natural_Language_Processing, Python, AI, Machine_Learning, Text_Mining
+ID: 14, Title: Machine Learning for Data Science
+Date: 0915081030, Length: 120, X: 60, Y: 75, Cost: 70
+Description: Fundamentals of machine learning with applications in data science using Python and R
+Keywords: Machine_Learning, Data_Science, AI, Python, R, Neural_Networks
+ID: 20, Title: Big Data Analytics with Hadoop and Spark
+Date: 0920111330, Length: 100, X: 80, Y: 55, Cost: 85
+Description: Introduction to big data analytics using Hadoop and Apache Spark frameworks
+Keywords: Big_Data, Analytics, Hadoop, Spark, Distributed_Computing, Data_Processing
+ID: 16, Title: Cybersecurity and Cryptography
+Date: 1004090900, Length: 60, X: 50, Y: 45, Cost: 40
+Description: Overview of cybersecurity threats and cryptography techniques for data protection
+Keywords: Cybersecurity, Cryptography, Information_Security, Encryption, Cyber_Defense
+17 nodes visited in this search
+Seminars matching keyword "Python":
+Successfully inserted record with ID 22
+ID: 22, Title: Artificial Intelligence and Deep Learning
+Date: 0610151500, Length: 130, X: 90, Y: 85, Cost: 95
+Description: Dive deep into AI with a focus on neural networks and deep learning using TensorFlow and PyTorch
+Keywords: AI, Deep_Learning, Neural_Networks, TensorFlow, PyTorch, Machine_Learning
+Successfully inserted record with ID 23
+ID: 23, Title: Introduction to Data Mining
+Date: 0221091100, Length: 110, X: 55, Y: 65, Cost: 60
+Description: Introductory course on data mining concepts, including clustering and decision trees
+Keywords: Data_Mining, Clustering, Decision_Trees, Big_Data, Machine_Learning
+Successfully inserted record with ID 24
+ID: 24, Title: Operating Systems and Networks
+Date: 0510181200, Length: 90, X: 60, Y: 70, Cost: 55
+Description: Understanding operating systems and networking fundamentals
+Keywords: Operating_Systems, Networking, Process_Management, Distributed_Computing
+Record with ID 15 successfully deleted from the database
+Delete FAILED -- There is no record with ID 100
+Date Tree:
+        (null)
+            \
+            (0221091100)
+            /
+        (null)
+                \
+                (0406181600)
+                /
+        (null)
+            \
+            (0510181200)
+            /
+        (null)
+                    \
+                    (0610071600)
+                    /
+    (null)
+        \
+        (0610151500)
+        /
+    (null)
+            \
+            (0702121430)
+            /
+        (null)
+                \
+                (0805071400)
+                /
+    (null)
+        \
+        (0827071015)
+        /
+    (null)
+            \
+            (0915081030)
+            /
+(null)
+    \
+    (0920111330)
+    /
+(null)
+        \
+        (1004090900)
+        /
+    (null)
+Number of records: 11
+Keyword Tree:
+                                    (null)
+                                        \
+                                        (3D_Modeling)
+                                        /
+                                (null)
+                                    \
+                                    (AI)
+                                    /
+                                (null)
+                                            \
+                                            (AI)
+                                            /
+                                        (null)
+                                                \
+                                                (AI)
+                                                /
+                                        (null)
+                                            \
+                                            (AWS)
+                                            /
+                                        (null)
+                                                    \
+                                                    (Algorithms)
+                                                    /
+                                        (null)
+                                            \
+                                            (Analytics)
+                                            /
+                                    (null)
+                                        \
+                                        (Animation)
+                                        /
+                                    (null)
+                                                \
+                                                (Azure)
+                                                /
+                                    (null)
+                                        \
+                                        (Big_Data)
+                                        /
+                                    (null)
+                                            \
+                                            (Big_Data)
+                                            /
+                                        (null)
+                                                        \
+                                                        (Bioinformatics)
+                                                        /
+                                            (null)
+                                                \
+                                                (Biology)
+                                                /
+                            (null)
+                                \
+                                (C#)
+                                /
+                            (null)
+                                    \
+                                    (Cloud_Computing)
+                                    /
+                            (null)
+                                \
+                                (Clustering)
+                                /
+                            (null)
+                                        \
+                                        (Computer_Science)
+                                        /
+                                    (null)
+                                            \
+                                            (Computer_Science)
+                                            /
+                    (null)
+                        \
+                        (Cryptography)
+                        /
+                (null)
+                    \
+                    (Cyber_Defense)
+                    /
+                (null)
+                            \
+                            (Cybersecurity)
+                            /
+                (null)
+                    \
+                    (Data_Mining)
+                    /
+                (null)
+                        \
+                        (Data_Processing)
+                        /
+                    (null)
+                                \
+                                (Data_Science)
+                                /
+                            (null)
+                                    \
+                                    (Data_Structures)
+                                    /
+    (null)
+        \
+        (Decision_Trees)
+        /
+    (null)
+            \
+            (Deep_Learning)
+            /
+    (null)
+        \
+        (Distributed_Computing)
+        /
+    (null)
+                \
+                (Distributed_Computing)
+                /
+            (null)
+                    \
+                    (Distributed_Systems)
+                    /
+                (null)
+                        \
+                        (Encryption)
+                        /
+                (null)
+                    \
+                    (Game_Development)
+                    /
+                (null)
+                            \
+                            (Graph_Theory)
+                            /
+        (null)
+            \
+            (Graphics_Programming)
+            /
+        (null)
+                \
+                (Hadoop)
+                /
+            (null)
+                    \
+                    (Information_Security)
+                    /
+    (null)
+        \
+        (Machine_Learning)
+        /
+    (null)
+            \
+            (Machine_Learning)
+            /
+        (null)
+                \
+                (Machine_Learning)
+                /
+            (null)
+                        \
+                        (Machine_Learning)
+                        /
+            (null)
+                \
+                (NLP)
+                /
+        (null)
+            \
+            (Natural_Language_Processing)
+            /
+(null)
+    \
+    (Networking)
+    /
+(null)
+        \
+        (Neural_Networks)
+        /
+    (null)
+                    \
+                    (Neural_Networks)
+                    /
+            (null)
+                \
+                (Operating_Systems)
+                /
+            (null)
+                                \
+                                (Optimization)
+                                /
+            (null)
+                \
+                (Process_Management)
+                /
+            (null)
+                    \
+                    (PyTorch)
+                    /
+                (null)
+                        \
+                        (Python)
+                        /
+                    (null)
+                            \
+                            (Python)
+                            /
+                    (null)
+                        \
+                        (R)
+                        /
+            (null)
+                \
+                (Scalability)
+                /
+        (null)
+            \
+            (Spark)
+            /
+    (null)
+        \
+        (TensorFlow)
+        /
+    (null)
+                    \
+                    (Text_Mining)
+                    /
+            (null)
+                \
+                (Unity)
+                /
+            (null)
+                                        \
+                                        (VT)
+                                        /
+                                (null)
+                                    \
+                                    (Virginia_Tech)
+                                    /
+                            (null)
+                                \
+                                (Virtualization)
+                                /
+                            (null)
+                                                    \
+                                                    (computation_biology)
+                                                    /
+                                                (null)
+Number of records: 61
+Cost Tree:
+                    (null)
+                        \
+                        (30)
+                        /
+            (null)
+                \
+                (40)
+                /
+            (null)
+                    \
+                    (50)
+                    /
+    (null)
+        \
+        (55)
+        /
+    (null)
+            \
+            (55)
+            /
+    (null)
+        \
+        (60)
+        /
+    (null)
+                \
+                (70)
+                /
+        (null)
+            \
+            (85)
+            /
+(null)
+    \
+    (95)
+    /
+(null)
+        \
+        (100)
+        /
+(null)
+    \
+    (120)
+    /
+(null)
+Number of records: 11
+ID Tree:
+                                        (null)
+                                            \
+                                            (12)
+                                            /
+                                    (null)
+                                        \
+                                        (13)
+                                        /
+                                (null)
+                                    \
+                                    (14)
+                                    /
+                            (null)
+                                \
+                                (16)
+                                /
+                        (null)
+                            \
+                            (17)
+                            /
+                    (null)
+                        \
+                        (19)
+                        /
+                (null)
+                    \
+                    (20)
+                    /
+            (null)
+                \
+                (21)
+                /
+        (null)
+            \
+            (22)
+            /
+    (null)
+        \
+        (23)
+        /
+(null)
+    \
+    (24)
+    /
+(null)
+Number of records: 11
+Found record with ID 21:
+ID: 21, Title: Game Development with Unity
+Date: 0406181600, Length: 180, X: 75, Y: 70, Cost: 120
+Description: Learn game development using Unity, focusing on 3D modeling and animation with C#
+Keywords: Game_Development, Unity, C#, Graphics_Programming, 3D_Modeling, Animation
+Seminars with costs in range 40 to 120:
+ID: 16, Title: Cybersecurity and Cryptography
+Date: 1004090900, Length: 60, X: 50, Y: 45, Cost: 40
+Description: Overview of cybersecurity threats and cryptography techniques for data protection
+Keywords: Cybersecurity, Cryptography, Information_Security, Encryption, Cyber_Defense
+ID: 13, Title: Advanced Algorithms and Data Structures
+Date: 0805071400, Length: 90, X: 45, Y: 35, Cost: 50
+Description: Study of advanced algorithms including graph theory and optimization techniques
+Keywords: Algorithms, Data_Structures, Computer_Science, Optimization, Graph_Theory
+ID: 24, Title: Operating Systems and Networks
+Date: 0510181200, Length: 90, X: 60, Y: 70, Cost: 55
+Description: Understanding operating systems and networking fundamentals
+Keywords: Operating_Systems, Networking, Process_Management, Distributed_Computing
+ID: 17, Title: Natural Language Processing with Python
+Date: 0827071015, Length: 90, X: 55, Y: 65, Cost: 55
+Description: Introduction to NLP concepts and tools with a focus on Python-based text mining techniques
+Keywords: NLP, Natural_Language_Processing, Python, AI, Machine_Learning, Text_Mining
+ID: 23, Title: Introduction to Data Mining
+Date: 0221091100, Length: 110, X: 55, Y: 65, Cost: 60
+Description: Introductory course on data mining concepts, including clustering and decision trees
+Keywords: Data_Mining, Clustering, Decision_Trees, Big_Data, Machine_Learning
+ID: 14, Title: Machine Learning for Data Science
+Date: 0915081030, Length: 120, X: 60, Y: 75, Cost: 70
+Description: Fundamentals of machine learning with applications in data science using Python and R
+Keywords: Machine_Learning, Data_Science, AI, Python, R, Neural_Networks
+ID: 20, Title: Big Data Analytics with Hadoop and Spark
+Date: 0920111330, Length: 100, X: 80, Y: 55, Cost: 85
+Description: Introduction to big data analytics using Hadoop and Apache Spark frameworks
+Keywords: Big_Data, Analytics, Hadoop, Spark, Distributed_Computing, Data_Processing
+ID: 22, Title: Artificial Intelligence and Deep Learning
+Date: 0610151500, Length: 130, X: 90, Y: 85, Cost: 95
+Description: Dive deep into AI with a focus on neural networks and deep learning using TensorFlow and PyTorch
+Keywords: AI, Deep_Learning, Neural_Networks, TensorFlow, PyTorch, Machine_Learning
+ID: 19, Title: Cloud Computing and Distributed Systems
+Date: 0702121430, Length: 150, X: 65, Y: 85, Cost: 100
+Description: In-depth exploration of cloud computing architectures and distributed systems design
+Keywords: Cloud_Computing, Distributed_Systems, Virtualization, AWS, Azure, Scalability
+ID: 21, Title: Game Development with Unity
+Date: 0406181600, Length: 180, X: 75, Y: 70, Cost: 120
+Description: Learn game development using Unity, focusing on 3D modeling and animation with C#
+Keywords: Game_Development, Unity, C#, Graphics_Programming, 3D_Modeling, Animation
+21 nodes visited in this search
+Seminars with dates in range 0610071600 to 1123091200:
+ID: 12, Title: Computational Biology and Bioinformatics in CS at Virginia Tech
+Date: 0610071600, Length: 60, X: 80, Y: 60, Cost: 30
+Description: Introduction to   bioinformatics and computation biology
+Keywords: Bioinformatics, computation_biology, Biology, Computer_Science, VT, Virginia_Tech
+ID: 22, Title: Artificial Intelligence and Deep Learning
+Date: 0610151500, Length: 130, X: 90, Y: 85, Cost: 95
+Description: Dive deep into AI with a focus on neural networks and deep learning using TensorFlow and PyTorch
+Keywords: AI, Deep_Learning, Neural_Networks, TensorFlow, PyTorch, Machine_Learning
+ID: 19, Title: Cloud Computing and Distributed Systems
+Date: 0702121430, Length: 150, X: 65, Y: 85, Cost: 100
+Description: In-depth exploration of cloud computing architectures and distributed systems design
+Keywords: Cloud_Computing, Distributed_Systems, Virtualization, AWS, Azure, Scalability
+ID: 13, Title: Advanced Algorithms and Data Structures
+Date: 0805071400, Length: 90, X: 45, Y: 35, Cost: 50
+Description: Study of advanced algorithms including graph theory and optimization techniques
+Keywords: Algorithms, Data_Structures, Computer_Science, Optimization, Graph_Theory
+ID: 17, Title: Natural Language Processing with Python
+Date: 0827071015, Length: 90, X: 55, Y: 65, Cost: 55
+Description: Introduction to NLP concepts and tools with a focus on Python-based text mining techniques
+Keywords: NLP, Natural_Language_Processing, Python, AI, Machine_Learning, Text_Mining
+ID: 14, Title: Machine Learning for Data Science
+Date: 0915081030, Length: 120, X: 60, Y: 75, Cost: 70
+Description: Fundamentals of machine learning with applications in data science using Python and R
+Keywords: Machine_Learning, Data_Science, AI, Python, R, Neural_Networks
+ID: 20, Title: Big Data Analytics with Hadoop and Spark
+Date: 0920111330, Length: 100, X: 80, Y: 55, Cost: 85
+Description: Introduction to big data analytics using Hadoop and Apache Spark frameworks
+Keywords: Big_Data, Analytics, Hadoop, Spark, Distributed_Computing, Data_Processing
+ID: 16, Title: Cybersecurity and Cryptography
+Date: 1004090900, Length: 60, X: 50, Y: 45, Cost: 40
+Description: Overview of cybersecurity threats and cryptography techniques for data protection
+Keywords: Cybersecurity, Cryptography, Information_Security, Encryption, Cyber_Defense
+19 nodes visited in this search
+Seminars matching keyword "AI":
+Search FAILED -- There is no record with ID 100
+Insert FAILED - Bad x, y coordinates: 32000, 32000
+Insert FAILED - Bad x, y coordinates: -32768, -32768
+Date Tree:
+        (null)
+            \
+            (0221091100)
+            /
+        (null)
+                \
+                (0406181600)
+                /
+        (null)
+            \
+            (0510181200)
+            /
+        (null)
+                    \
+                    (0610071600)
+                    /
+    (null)
+        \
+        (0610151500)
+        /
+    (null)
+            \
+            (0702121430)
+            /
+        (null)
+                \
+                (0805071400)
+                /
+    (null)
+        \
+        (0827071015)
+        /
+    (null)
+            \
+            (0915081030)
+            /
+(null)
+    \
+    (0920111330)
+    /
+(null)
+        \
+        (1004090900)
+        /
+    (null)
+Number of records: 11
+Keyword Tree:
+                                    (null)
+                                        \
+                                        (3D_Modeling)
+                                        /
+                                (null)
+                                    \
+                                    (AI)
+                                    /
+                                (null)
+                                            \
+                                            (AI)
+                                            /
+                                        (null)
+                                                \
+                                                (AI)
+                                                /
+                                        (null)
+                                            \
+                                            (AWS)
+                                            /
+                                        (null)
+                                                    \
+                                                    (Algorithms)
+                                                    /
+                                        (null)
+                                            \
+                                            (Analytics)
+                                            /
+                                    (null)
+                                        \
+                                        (Animation)
+                                        /
+                                    (null)
+                                                \
+                                                (Azure)
+                                                /
+                                    (null)
+                                        \
+                                        (Big_Data)
+                                        /
+                                    (null)
+                                            \
+                                            (Big_Data)
+                                            /
+                                        (null)
+                                                        \
+                                                        (Bioinformatics)
+                                                        /
+                                            (null)
+                                                \
+                                                (Biology)
+                                                /
+                            (null)
+                                \
+                                (C#)
+                                /
+                            (null)
+                                    \
+                                    (Cloud_Computing)
+                                    /
+                            (null)
+                                \
+                                (Clustering)
+                                /
+                            (null)
+                                        \
+                                        (Computer_Science)
+                                        /
+                                    (null)
+                                            \
+                                            (Computer_Science)
+                                            /
+                    (null)
+                        \
+                        (Cryptography)
+                        /
+                (null)
+                    \
+                    (Cyber_Defense)
+                    /
+                (null)
+                            \
+                            (Cybersecurity)
+                            /
+                (null)
+                    \
+                    (Data_Mining)
+                    /
+                (null)
+                        \
+                        (Data_Processing)
+                        /
+                    (null)
+                                \
+                                (Data_Science)
+                                /
+                            (null)
+                                    \
+                                    (Data_Structures)
+                                    /
+    (null)
+        \
+        (Decision_Trees)
+        /
+    (null)
+            \
+            (Deep_Learning)
+            /
+    (null)
+        \
+        (Distributed_Computing)
+        /
+    (null)
+                \
+                (Distributed_Computing)
+                /
+            (null)
+                    \
+                    (Distributed_Systems)
+                    /
+                (null)
+                        \
+                        (Encryption)
+                        /
+                (null)
+                    \
+                    (Game_Development)
+                    /
+                (null)
+                            \
+                            (Graph_Theory)
+                            /
+        (null)
+            \
+            (Graphics_Programming)
+            /
+        (null)
+                \
+                (Hadoop)
+                /
+            (null)
+                    \
+                    (Information_Security)
+                    /
+    (null)
+        \
+        (Machine_Learning)
+        /
+    (null)
+            \
+            (Machine_Learning)
+            /
+        (null)
+                \
+                (Machine_Learning)
+                /
+            (null)
+                        \
+                        (Machine_Learning)
+                        /
+            (null)
+                \
+                (NLP)
+                /
+        (null)
+            \
+            (Natural_Language_Processing)
+            /
+(null)
+    \
+    (Networking)
+    /
+(null)
+        \
+        (Neural_Networks)
+        /
+    (null)
+                    \
+                    (Neural_Networks)
+                    /
+            (null)
+                \
+                (Operating_Systems)
+                /
+            (null)
+                                \
+                                (Optimization)
+                                /
+            (null)
+                \
+                (Process_Management)
+                /
+            (null)
+                    \
+                    (PyTorch)
+                    /
+                (null)
+                        \
+                        (Python)
+                        /
+                    (null)
+                            \
+                            (Python)
+                            /
+                    (null)
+                        \
+                        (R)
+                        /
+            (null)
+                \
+                (Scalability)
+                /
+        (null)
+            \
+            (Spark)
+            /
+    (null)
+        \
+        (TensorFlow)
+        /
+    (null)
+                    \
+                    (Text_Mining)
+                    /
+            (null)
+                \
+                (Unity)
+                /
+            (null)
+                                        \
+                                        (VT)
+                                        /
+                                (null)
+                                    \
+                                    (Virginia_Tech)
+                                    /
+                            (null)
+                                \
+                                (Virtualization)
+                                /
+                            (null)
+                                                    \
+                                                    (computation_biology)
+                                                    /
+                                                (null)
+Number of records: 61
+Location Tree:
+                                (I)
+                            (I)
+                        (I)
+                    (E)
+                    (I)
+                (E)
+                (I)
+            (Leaf with 1 objects: 22)
+            (I)
+        (Leaf with 1 objects: 19)
+        (Leaf with 1 objects: 21)
+                        (I)
+                    (E)
+                    (I)
+                (I)
+            (I)
+        (I)
+    (E)
+    (I)
+(Leaf with 1 objects: 12)
+(Leaf with 1 objects: 20)
+        (E)
+            (E)
+                (E)
+                            (I)
+                        (I)
+                    (I)
+                (E)
+                (I)
+            (I)
+        (E)
+        (I)
+    (I)
+(Leaf with 1 objects: 14)
+(Leaf with 1 objects: 24)
+    (Leaf with 2 objects: 17 23)
+            (E)
+                    (E)
+                        (I)
+                    (I)
+                (I)
+            (Leaf with 1 objects: 16)
+            (Leaf with 1 objects: 13)
+                (E)
+                    (E)
+Cost Tree:
+                    (null)
+                        \
+                        (30)
+                        /
+            (null)
+                \
+                (40)
+                /
+            (null)
+                    \
+                    (50)
+                    /
+    (null)
+        \
+        (55)
+        /
+    (null)
+            \
+            (55)
+            /
+    (null)
+        \
+        (60)
+        /
+    (null)
+                \
+                (70)
+                /
+        (null)
+            \
+            (85)
+            /
+(null)
+    \
+    (95)
+    /
+(null)
+        \
+        (100)
+        /
+(null)
+    \
+    (120)
+    /
+(null)
+Number of records: 11
+ID Tree:
+                                        (null)
+                                            \
+                                            (12)
+                                            /
+                                    (null)
+                                        \
+                                        (13)
+                                        /
+                                (null)
+                                    \
+                                    (14)
+                                    /
+                            (null)
+                                \
+                                (16)
+                                /
+                        (null)
+                            \
+                            (17)
+                            /
+                    (null)
+                        \
+                        (19)
+                        /
+                (null)
+                    \
+                    (20)
+                    /
+            (null)
+                \
+                (21)
+                /
+        (null)
+            \
+            (22)
+            /
+    (null)
+        \
+        (23)
+        /
+(null)
+    \
+    (24)
+    /
+(null)
+Number of records: 11
+Unrecognized input
+Delete FAILED -- There is no record with ID 25
+Unrecognized input
+Delete FAILED -- There is no record with ID 26
+Seminars matching keyword "Bioinformatics":
+Seminars matching keyword "Data_Mining":
+Seminars matching keyword "Quantum_Computing":
+Seminars matching keyword "NotExistingKeyword":
+Successfully inserted record with ID 27
+ID: 27, Title: Introduction to Ethical AI
+Date: 0908181100, Length: 110, X: 90, Y: 60, Cost: 80
+Description: Exploration of ethical issues in artificial intelligence including fairness and bias
+Keywords: Ethical_AI, Ethics, Machine_Learning, Bias_Fairness, AI_Safety
+Seminars matching keyword "Ethics":
+Seminars matching keyword "Robotics":
+Seminars matching keyword "Hadoop":
+Seminars matching keyword "Fairness":
+Record with ID 22 successfully deleted from the database
+Seminars matching keyword "Deep_Learning":
+Successfully inserted record with ID 28
+ID: 28, Title: Advanced Penetration Testing
+Date: 0104190800, Length: 140, X: 100, Y: 50, Cost: 90
+Description: Advanced techniques for penetration testing and offensive security practices
+Keywords: Penetration_Testing, Cybersecurity, Red_Teaming, Firewalls, Offensive_Security
+Seminars matching keyword "Cybersecurity":
+Seminars matching keyword "Offensive_Security":
+Record with ID 28 successfully deleted from the database
+ID Tree:
+                                        (null)
+                                            \
+                                            (12)
+                                            /
+                                    (null)
+                                        \
+                                        (13)
+                                        /
+                                (null)
+                                    \
+                                    (14)
+                                    /
+                            (null)
+                                \
+                                (16)
+                                /
+                        (null)
+                            \
+                            (17)
+                            /
+                    (null)
+                        \
+                        (19)
+                        /
+                (null)
+                    \
+                    (20)
+                    /
+            (null)
+                \
+                (21)
+                /
+        (null)
+            \
+            (23)
+            /
+    (null)
+        \
+        (24)
+        /
+(null)
+    \
+    (27)
+    /
+(null)
+Number of records: 11
+Keyword Tree:
+                                (null)
+                                    \
+                                    (3D_Modeling)
+                                    /
+                                (null)
+                                        \
+                                        (AI)
+                                        /
+                                    (null)
+                                            \
+                                            (AI)
+                                            /
+                                (null)
+                                    \
+                                    (AI_Safety)
+                                    /
+                                (null)
+                                        \
+                                        (AWS)
+                                        /
+                                    (null)
+                                                \
+                                                (Algorithms)
+                                                /
+                                    (null)
+                                        \
+                                        (Analytics)
+                                        /
+                                (null)
+                                    \
+                                    (Animation)
+                                    /
+                                (null)
+                                            \
+                                            (Azure)
+                                            /
+                            (null)
+                                \
+                                (Bias_Fairness)
+                                /
+                            (null)
+                                    \
+                                    (Big_Data)
+                                    /
+                                (null)
+                                        \
+                                        (Big_Data)
+                                        /
+                                    (null)
+                                                    \
+                                                    (Bioinformatics)
+                                                    /
+                                        (null)
+                                            \
+                                            (Biology)
+                                            /
+                        (null)
+                            \
+                            (C#)
+                            /
+                        (null)
+                                \
+                                (Cloud_Computing)
+                                /
+                        (null)
+                            \
+                            (Clustering)
+                            /
+                        (null)
+                                    \
+                                    (Computer_Science)
+                                    /
+                                (null)
+                                        \
+                                        (Computer_Science)
+                                        /
+                (null)
+                    \
+                    (Cryptography)
+                    /
+            (null)
+                \
+                (Cyber_Defense)
+                /
+            (null)
+                        \
+                        (Cybersecurity)
+                        /
+            (null)
+                \
+                (Data_Mining)
+                /
+            (null)
+                    \
+                    (Data_Processing)
+                    /
+                (null)
+                            \
+                            (Data_Science)
+                            /
+                        (null)
+                                \
+                                (Data_Structures)
+                                /
+    (null)
+        \
+        (Decision_Trees)
+        /
+(null)
+    \
+    (Distributed_Computing)
+    /
+(null)
+            \
+            (Distributed_Computing)
+            /
+        (null)
+                \
+                (Distributed_Systems)
+                /
+            (null)
+                    \
+                    (Encryption)
+                    /
+        (null)
+            \
+            (Ethical_AI)
+            /
+    (null)
+        \
+        (Ethics)
+        /
+    (null)
+                \
+                (Game_Development)
+                /
+            (null)
+                        \
+                        (Graph_Theory)
+                        /
+    (null)
+        \
+        (Graphics_Programming)
+        /
+    (null)
+            \
+            (Hadoop)
+            /
+        (null)
+                \
+                (Information_Security)
+                /
+(null)
+    \
+    (Machine_Learning)
+    /
+(null)
+        \
+        (Machine_Learning)
+        /
+    (null)
+            \
+            (Machine_Learning)
+            /
+        (null)
+                    \
+                    (Machine_Learning)
+                    /
+        (null)
+            \
+            (NLP)
+            /
+    (null)
+        \
+        (Natural_Language_Processing)
+        /
+(null)
+    \
+    (Networking)
+    /
+(null)
+                \
+                (Neural_Networks)
+                /
+        (null)
+            \
+            (Operating_Systems)
+            /
+        (null)
+                            \
+                            (Optimization)
+                            /
+            (null)
+                \
+                (Process_Management)
+                /
+            (null)
+                    \
+                    (Python)
+                    /
+                (null)
+                        \
+                        (Python)
+                        /
+                (null)
+                    \
+                    (R)
+                    /
+        (null)
+            \
+            (Scalability)
+            /
+    (null)
+        \
+        (Spark)
+        /
+    (null)
+                \
+                (Text_Mining)
+                /
+        (null)
+            \
+            (Unity)
+            /
+        (null)
+                                    \
+                                    (VT)
+                                    /
+                            (null)
+                                \
+                                (Virginia_Tech)
+                                /
+                        (null)
+                            \
+                            (Virtualization)
+                            /
+                        (null)
+                                                \
+                                                (computation_biology)
+                                                /
+                                            (null)
+Number of records: 60

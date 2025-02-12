@@ -1,0 +1,66 @@
+insert 1
+Test Seminar 1
+0610051600 90 10 10 45
+HCI Computer_Science VT Virginia_Tech
+Overview of HCI Research at VT
+
+
+insert 2
+Test Seminar 2
+0610071600 60 20 10 30
+Bioinformatics computation_biology Biology Computer_Science VT Virginia_Tech
+Introduction to bioinformatics and computation biology
+
+insert 3
+Test Seminar 3
+1203301125 35 30 30 25
+HPC CSE computer_science VT
+Overview of HPC and CSE Research at VT
+
+
+insert 4
+Test Seminar 4
+0701250830 30 0 0 17
+high_performance_computing grids VT computer science
+Computing Systems Research at VT
+
+
+insert 5
+Inside Box Seminar
+0701250830 10 10 5 5
+research seminar location 
+This seminar is completely inside the bounding area.
+
+
+insert 6
+Outside Box Seminar
+0801250830 10 10 200 200
+external_research seminar location 
+This seminar is completely outside the bounding area.
+
+
+insert 7
+Touching Edge Seminar
+0901250830 10 10 0 0
+border_research seminar location 
+This seminar is touching the boundary.
+
+insert 8
+Minimal Overlap Seminar
+1001250830 20 10 10 10
+minimal_overlap seminar location 
+This seminar minimally overlaps with another box.
+
+
+insert 9
+Full Coverage Seminar
+1101250830 0 0 10 10
+full_coverage seminar location 
+This seminar covers a point in the bounding area.
+ 
+
+search location 10 10 10
+search location 100 100 10
+search location 20 20 10
+search location 5 5 5
+search location 45 45 5

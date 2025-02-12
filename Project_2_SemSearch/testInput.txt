@@ -1,0 +1,191 @@
+print location
+
+              print ID
+search ID 1
+search keyword VT
+
+insert 1
+Overview of HCI Research at VT
+0610051600 90 -1 10 45
+HCI Computer_Science VT Virginia_Tech
+This seminar will present an overview of HCI research at VT
+insert 1
+Overview of HCI Research at VT
+0610051600 90 10 128 45
+HCI Computer_Science VT Virginia_Tech
+This seminar will present an overview of HCI research at VT
+insert 1
+Overview of HCI Research at VT
+0610051600 90 128 10 45
+HCI Computer_Science VT Virginia_Tech
+This seminar will present an overview of HCI research at VT
+insert 1
+Overview of HCI Research at VT
+0610051600 90 10 -2 45
+HCI Computer_Science VT Virginia_Tech
+This seminar will present an overview of HCI research at VT
+
+insert 1
+Overview of HCI Research at VT
+0610051600 90 10 10 45
+HCI Computer_Science VT Virginia_Tech
+This seminar will present an overview of HCI research at VT
+
+
+insert 2
+Computational Biology and Bioinformatics in CS at Virginia Tech
+      0610071600       60     10     10 30
+Bioinformatics computation_biology Biology Computer_Science VT Virginia_Tech
+    Introduction to   bioinformatics and computation biology
+insert 10
+Computing Systems Research at VT
+0701250830  30 30   10  17
+high_performance_computing           grids     VT computer science
+  Seminar about the      Computing systems research at      VT
+    
+insert 3
+Overview of HPC and CSE Research at VT
+1203301125     35        0  0                                           25
+      HPC      CSE      computer_science 
+Learn what kind of    research is done on HPC  and CSE at VT
+
+print ID
+print date
+                print                   keyword
+                
+print cost
+
+  print location
+  
+insert 10
+Overview of HPC and CSE Research at VT
+0703301125     35        0  0                                           25
+      HPC      CSE      computer_science 
+Learn what kind of    research is done on HPC  and CSE at VT
+
+search keyword VT
+search ID 1
+search cost 30 50
+
+search date 0 1
+
+delete 1
+delete 12
+
+print ID
+search keyword CSE
+search keyword computer_science
+search keyword grids
+search keyword science
+print location
+delete 2
+print location
+insert 5
+Computational Biology and Bioinformatics in CS at Virginia Tech
+      0610071600       60     10     10 30
+Bioinformatics computation_biology Biology Computer_Science VT Virginia_Tech
+    Introduction to   bioinformatics and computation biology
+print location
+    insert 8
+Computational Biology and Bioinformatics in CS at Virginia Tech
+      0610071600       60     10     10 30
+Bioinformatics computation_biology Biology Computer_Science VT Virginia_Tech
+    Introduction to   bioinformatics and computation biology
+insert 12
+Computational Biology and Bioinformatics in CS at Virginia Tech
+      0610071600       60     10     10 30
+Bioinformatics computation_biology Biology Computer_Science VT Virginia_Tech
+    Introduction to   bioinformatics and computation biology
+print location
+    delete 8
+print location
+delete 12
+print location
+delete 10
+print location
+delete 5
+print location
+delete 3
+print location
+insert 13
+Advanced Algorithms and Data Structures
+      0805071400       90     45     35 50
+Algorithms Data_Structures Computer_Science Optimization Graph_Theory
+    Study of advanced algorithms including graph theory and optimization techniques
+insert 14
+Machine Learning for Data Science
+      0915081030       120    60     75 70
+Machine_Learning Data_Science AI Python R Neural_Networks
+    Fundamentals of machine learning with applications in data science using Python and R
+insert 15
+Introduction to Quantum Computing
+      1123091200       75     40     50 65
+Quantum_Computing Qubits Quantum_Algorithms Computer_Science Physics
+    Basics of quantum computing, including qubits and quantum algorithms
+insert 16
+Cybersecurity and Cryptography
+      1004090900       60     50     45 40
+Cybersecurity Cryptography Information_Security Encryption Cyber_Defense
+    Overview of cybersecurity threats and cryptography techniques for data protection
+insert 17
+Natural Language Processing with Python
+      0827071015       90     55     65 55
+NLP Natural_Language_Processing Python AI Machine_Learning Text_Mining
+    Introduction to NLP concepts and tools with a focus on Python-based text mining techniques
+    insert 18
+Ethical Hacking and Network Security
+      0315110930       120    70     80 90
+Ethical_Hacking Network_Security Penetration_Testing Firewalls Intrusion_Detection
+    Learn ethical hacking techniques to secure networks and identify vulnerabilities
+    insert 19
+Cloud Computing and Distributed Systems
+      0702121430       150    65     85 100
+Cloud_Computing Distributed_Systems Virtualization AWS Azure Scalability
+    In-depth exploration of cloud computing architectures and distributed systems design
+    insert 20
+Big Data Analytics with Hadoop and Spark
+      0920111330       100    80     55 85
+Big_Data Analytics Hadoop Spark Distributed_Computing Data_Processing
+    Introduction to big data analytics using Hadoop and Apache Spark frameworks
+    insert 21
+Game Development with Unity
+      0406181600       180    75     70 120
+Game_Development Unity C# Graphics_Programming 3D_Modeling Animation
+    Learn game development using Unity, focusing on 3D modeling and animation with C#
+insert 22
+Artificial Intelligence and Deep Learning
+      0610151500       130    90     85 95
+AI Deep_Learning Neural_Networks TensorFlow PyTorch Machine_Learning
+    Dive deep into AI with a focus on neural networks and deep learning using TensorFlow and PyTorch
+search keyword AI
+search keyword Neural_Networks
+search keyword Computer_Science
+search keyword TensorFlow
+search keyword Zebra
+print location
+delete 14
+delete 17
+print location
+delete 22
+print location
+delete 15
+print location
+delete 16
+print location
+delete 18
+print location
+delete 19
+print location
+delete 20
+print location
+delete 21
+print location
+search keyword Zebra
+search keyword TensorFlow
+delete 13
+print ID
+print keyword
+print date
+print cost
+print location
+search location 

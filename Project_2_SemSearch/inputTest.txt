@@ -1,0 +1,84 @@
+insert 1
+Overview of HCI Research at VT
+0610051600 90 10 10 45
+HCI Computer_Science VT Virginia_Tech
+This seminar will present an overview of HCI research at VT
+
+print location 
+
+insert 2
+Computational Biology and Bioinformatics in CS at Virginia Tech
+      0610071600       60     20     10 30
+Bioinformatics computation_biology Biology Computer_Science VT Virginia_Tech
+    Introduction to   bioinformatics and computation biology
+print location 
+    insert 3
+Overview of HPC and CSE Research at VT
+1203301125     35        30  30                                           25
+      HPC      CSE      computer_science 
+Learn what kind of    research is done on HPC  and CSE at VT
+print location
+insert 10
+Computing Systems Research at VT
+0701250830  30 0   0  17
+high_performance_computing           grids     VT computer science
+  Seminar about the      Computing systems research at      VT
+    
+print location
+
+search location 30 30 100
+search location 0 0 0
+search location 0 0 1
+search location 10 10 21
+
+insert 11
+Computing Systems Research at VT
+0701250830  30 50   35  17
+high_performance_computing           grids     VT computer science
+  Seminar about the      Computing systems research at      VT
+  
+search location 700 35 20
+
+insert 15
+Overview of HCI Research at VT
+0610051600 90 10 10 45
+HCI Computer_Science VT Virginia_Tech
+This seminar will present an overview of HCI research at VT
+
+
+insert 8
+Computational Biology and Bioinformatics in CS at Virginia Tech
+0610071600 60 20 10 30
+Bioinformatics computation_biology Biology Computer_Science VT Virginia_Tech
+Introduction to bioinformatics and computation biology
+
+
+insert 4
+Overview of HPC and CSE Research at VT
+1203301125 35 30 30 25
+HPC CSE computer_science
+Learn what kind of research is done on HPC and CSE at VT
+
+insert 12
+Computing Systems Research at VT
+0701250830 30 0 0 17
+high_performance_computing grids VT computer science
+Seminar about the Computing systems research at VT
+
+
+insert 7
+Computing Systems Research at VT
+0701250830 30 50 35 17
+high_performance_computing grids VT computer science
+Seminar about the Computing systems research at VT
+search location 10 10 5
+search location 10 10 21
+search location 0 0 0
+search location 20 20 15
+search location 700 700 10
+search location 30 30 100
+search location 35 10 5
+search location 50 50 10
+search location 25 25 50
+search location 15 15 2
+search location 10 40 15
