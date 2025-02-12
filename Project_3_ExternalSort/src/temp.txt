@@ -1,0 +1,387 @@
+
+/**
+ * @author Randy Fu
+ * @version 10/26
+ */
+import java.io.RandomAccessFile;
+import java.nio.ByteBuffer;
+import java.io.File;
+import java.io.IOException;
+
+public class Processor {
+
+    private static final int HEAPSIZE = 8 * ByteFile.RECORDS_PER_BLOCK;
+    private Record[] heapArray;
+    private Record[] inputBuffer;
+    private Record[] outputBuffer;
+    private LinkedList<Run> list;
+    private int inputIndex;
+
+    /**
+     * Create a new processor for the file
+     * 
+     * @param fileName
+     *            name of the binary file
+     * @throws FileNotFoundException
+     */
+    public Processor() {
+        heapArray = new Record[HEAPSIZE];
+        inputBuffer = new Record[ByteFile.RECORDS_PER_BLOCK];
+        outputBuffer = new Record[ByteFile.RECORDS_PER_BLOCK];
+        list = new LinkedList<Run>();
+        inputIndex = 0;
+    }
+
+
+    /**
+     * Read in the binary from the file and create runs
+     * 
+     * @throws IOException
+     */
+    public void createRuns(File fileName, File runFile) throws IOException {
+        RandomAccessFile raf = new RandomAccessFile(fileName, "r");
+        raf.seek(0);
+        RandomAccessFile output = new RandomAccessFile(runFile, "rw");
+        output.setLength(0);
+        int outputIndex = 0;
+        long runStartPosition = output.getFilePointer();
+        int runCount = 0;
+
+        // Read first 8 blocks
+        MinHeap<Record> heap = new MinHeap<Record>(heapArray, 0, HEAPSIZE);
+        LinkedList<Record> tempStore = new LinkedList<Record>();
+
+        while (heap.heapSize() < HEAPSIZE) {
+            initializeHeap(raf, heap, inputBuffer, ByteFile.BYTES_PER_BLOCK,
+                runCount, raf.getFilePointer());
+        }
+        heap.buildHeap();
+        int currentRunSize = 0;
+        // long t = raf.getFilePointer();
+        inputBuffer = new Record[ByteFile.RECORDS_PER_BLOCK];
+        // Create runs until all bytes read
+        while (heap.heapSize() > 0 || tempStore.getCount() > 0) {
+            while (heap.heapSize() > 0) {
+                Record minRecord = heap.removeMin();
+                outputBuffer[outputIndex] = minRecord;
+                outputIndex++;
+                currentRunSize += ByteFile.BYTES_PER_RECORD;
+                if (outputIndex == ByteFile.RECORDS_PER_BLOCK) {
+                    writeBlock(output, outputBuffer,
+                        ByteFile.RECORDS_PER_BLOCK);
+                    outputIndex = 0;
+                }
+                refillHeap(raf, heap, inputBuffer, raf.getFilePointer(),
+                    ByteFile.BYTES_PER_BLOCK, minRecord, tempStore, runCount);
+            }
+
+            if (outputIndex > 0) {
+                writeBlock(output, outputBuffer, outputIndex);
+                outputIndex = 0;
+            }
+
+            // Write to run
+            LLNode<Run> node = new LLNode<Run>(new Run(runStartPosition,
+                currentRunSize));
+            list.insertNode(node);
+            runStartPosition = output.getFilePointer();
+            currentRunSize = 0;
+            if (tempStore.getCount() > 0) {
+                LLNode<Record> record = tempStore.getNode();
+                while (record != null) {
+                    heap.insert(record.getData());
+                    record = record.getNext();
+                }
+            }
+            heap.buildHeap();
+            tempStore.clear();
+            runCount++;
+        }
+        raf.close();
+        output.close();
+    }
+
+
+    // Read a block of the file into inputBuffer
+    private int readBlock(
+        RandomAccessFile file,
+        Record[] buffer,
+        long start,
+        int length,
+        int runCount)
+        throws IOException {
+        int recordCount = 0;
+        byte[] byteBuffer = new byte[ByteFile.BYTES_PER_BLOCK];
+        ByteBuffer bb = ByteBuffer.wrap(byteBuffer);
+
+        file.seek(start);
+        int bytesToRead = Math.min(ByteFile.BYTES_PER_BLOCK, length);
+        int bytesRead = file.read(byteBuffer, 0, bytesToRead);
+        if (bytesRead <= 0) {
+            return 0;
+        }
+        bb.limit(bytesRead);
+        int totalRecords = bytesRead / ByteFile.BYTES_PER_RECORD;
+        while (bb.remaining() >= ByteFile.BYTES_PER_RECORD) {
+            long id = bb.getLong();
+            double key = bb.getDouble();
+            boolean isLastRecord = (recordCount == totalRecords - 1);
+            buffer[recordCount] = new Record(id, key, runCount, isLastRecord);
+            recordCount++;
+        }
+        return recordCount;
+    }
+
+
+    private void writeBlock(RandomAccessFile file, Record[] buffer, int length)
+        throws IOException {
+        ByteBuffer blockBuffer = ByteBuffer.allocate(ByteFile.BYTES_PER_BLOCK);
+        for (int i = 0; i < length; i++) {
+            blockBuffer.putLong(buffer[i].getID()).putDouble(buffer[i]
+                .getKey());
+        }
+        blockBuffer.flip();
+        file.getChannel().write(blockBuffer);
+    }
+
+
+    private void initializeHeap(
+        RandomAccessFile input,
+        MinHeap<Record> heap,
+        Record[] buffer,
+        int length,
+        int runCount,
+        long start)
+        throws IOException {
+        buffer = new Record[buffer.length];
+        int recordsRead = readBlock(input, buffer, start, length, runCount);
+        if (recordsRead == 0) {
+            return;
+        }
+        inputIndex = 0;
+        while (inputIndex < buffer.length && heap.heapSize() < HEAPSIZE) {
+            Record record = buffer[inputIndex];
+            if (record == null) {
+                break;
+            }
+            // System.out.println(record.getKey() + " " + record.getID());
+            heap.insert(record);
+            inputIndex++;
+        }
+    }
+
+
+    private void loadIntoHeap(
+        Record[] buffer,
+        MinHeap<Record> heap,
+        Record prev,
+        LinkedList<Record> list) {
+        while (inputIndex < buffer.length && heap.heapSize() < HEAPSIZE) {
+            Record record = buffer[inputIndex];
+            if (record == null) {
+                break;
+            }
+            if (prev != null && record.getKey() < prev.getKey()) {
+                LLNode<Record> node = new LLNode<Record>(record);
+                list.insertNode(node);
+            }
+            else {
+                heap.insert(record);
+            }
+            inputIndex++;
+        }
+    }
+
+
+    private void refillHeap(
+        RandomAccessFile raf,
+        MinHeap<Record> heap,
+        Record[] buffer,
+        long start,
+        int length,
+        Record prev,
+        LinkedList<Record> list,
+        int runCount)
+        throws IOException {
+
+        // Refill the buffer if it is used up or empty
+        if (inputIndex >= buffer.length || buffer[0] == null) {
+            int recordsRead = readBlock(raf, buffer, start, length, runCount);
+            if (recordsRead == 0) {
+                return;
+            }
+            inputIndex = 0;
+        }
+        loadIntoHeap(buffer, heap, prev, list);
+    }
+
+
+    /**
+     * Print first record in each block
+     * 
+     * @param sortedFile
+     *            Sorted file
+     * @throws IOException
+     */
+    public void printRecords(File sortedFile) throws IOException {
+        RandomAccessFile input = new RandomAccessFile(sortedFile, "r");
+        Record[] records = new Record[ByteFile.RECORDS_PER_BLOCK];
+        StringBuilder sb = new StringBuilder();
+        int printCount = 0;
+        while (input.getFilePointer() < input.length()) {
+            int recordsRead = readBlock(input, records, input.getFilePointer(),
+                ByteFile.BYTES_PER_BLOCK, -1);
+            if (recordsRead > 0) {
+                sb.append(records[0].getID()).append(" ").append(records[0]
+                    .getKey()).append(" ");
+                printCount++;
+                if (printCount == 5) {
+                    System.out.println(sb.toString().trim());
+                    sb.setLength(0);
+                    printCount = 0;
+                }
+            }
+        }
+        if (sb.length() > 0) {
+            System.out.println(sb.toString().trim());
+        }
+    }
+
+
+    /**
+     * Multiway Merge
+     * 
+     * @param inputFile
+     *            runs file
+     * @param outputFile
+     *            original input file
+     * @throws IOException
+     */
+
+    public void mergeRuns(File inputFile, File outputFile) throws IOException {
+        RandomAccessFile input = new RandomAccessFile(inputFile, "r");
+        RandomAccessFile output = new RandomAccessFile(outputFile, "rw");
+        output.setLength(0);
+        MinHeap<Record> heap = new MinHeap<Record>(heapArray, 0, HEAPSIZE);
+        // Get the number of bytes in the first run
+        LLNode<Run> head = list.getNode();
+        int numOfRuns = list.getCount();
+        Run[] runs = new Run[numOfRuns];
+        inputBuffer = new Record[ByteFile.RECORDS_PER_BLOCK];
+        outputBuffer = new Record[ByteFile.RECORDS_PER_BLOCK];
+        inputIndex = 0;
+
+        // Add all run data into array for easy access
+        int runIndex = 0;
+        while (head != null) {
+            Run run = head.getData();
+            runs[runIndex] = run;
+            head = head.getNext();
+            runIndex++;
+        }
+
+        runIndex = 0;
+
+        // Initialize heap using first block of first run, first block of second
+        // run, etc.
+        while (heap.heapSize() < HEAPSIZE) {
+            if (!runs[runIndex].isDone()) {
+                initializeHeap(input, heap, inputBuffer, runs[runIndex]
+                    .getLength(), runIndex, runs[runIndex].getCurrent());
+                runs[runIndex].updatePosition(input.getFilePointer());
+                if (runs[runIndex].getCurrent() == runs[runIndex].getEnd()) {
+                    runs[runIndex].markDone();
+                }
+            }
+            runIndex++;
+            if (runIndex == numOfRuns) {
+                runIndex = 0;
+            }
+        }
+
+        heap.buildHeap();
+        int outputIndex = 0;
+        while (heap.heapSize() > 0) {
+            Record minRecord = heap.removeMin();
+            outputBuffer[outputIndex] = minRecord;
+            outputIndex++;
+            if (outputIndex == ByteFile.RECORDS_PER_BLOCK) {
+                writeBlock(output, outputBuffer, ByteFile.RECORDS_PER_BLOCK);
+                outputIndex = 0;
+            }
+
+            // Edit this
+            // Check if removed record is last in block
+            boolean isLast = minRecord.isLast();
+            int recordRun = minRecord.getRun();
+            // If record removed is last record in a block
+            if (!isLast) {
+                // Add from same run if not exhausted
+                if (!runs[recordRun].isDone()) {
+                    // Rewrite to make less complicated. Like method for filling
+                    // inputBuffer.
+                    refillHeap(input, heap, inputBuffer, runs[recordRun]
+                        .getCurrent(), ByteFile.BYTES_PER_BLOCK, null, null,
+                        recordRun);
+                    runs[recordRun].updatePosition(input.getFilePointer());
+                    // Mark done if current byte is end of run
+                    if (runs[recordRun].getCurrent() == runs[recordRun]
+                        .getEnd()) {
+                        runs[recordRun].markDone();
+                    }
+                }
+                else {
+                    refillHeap(input, heap, inputBuffer, runs[recordRun]
+                        .getCurrent(), ByteFile.BYTES_PER_BLOCK, null, null,
+                        recordRun);
+                    runs[recordRun].updatePosition(input.getFilePointer());
+                    // Mark done if current byte is end of run
+                    if (runs[recordRun].getCurrent() == runs[recordRun]
+                        .getEnd()) {
+                        runs[recordRun].markDone();
+                    }
+                }
+            }
+            else {
+                // Load next block from same run
+                // If run is exhausted, load next block from next available run
+                if (runs[recordRun].isDone()) {
+                    while (inputIndex < inputBuffer.length && heap
+                        .heapSize() < HEAPSIZE) {
+                        heap.insert(inputBuffer[inputIndex]);
+                        inputIndex++;
+                    }
+                    int nextRun = (recordRun + 1) % numOfRuns;
+                    int startRun = nextRun;
+                    while (runs[nextRun].isDone()) {
+                        nextRun = (nextRun + 1) % numOfRuns;
+                        if (nextRun == startRun) {
+                            break;
+                        }
+                    }
+                }
+                else {
+                    refillHeap(input, heap, inputBuffer, runs[recordRun]
+                        .getCurrent(), ByteFile.BYTES_PER_BLOCK, null, null,
+                        recordRun);
+                    runs[recordRun].updatePosition(input.getFilePointer());
+                    // Mark done if current byte is end of run
+                    if (runs[recordRun].getCurrent() == runs[recordRun]
+                        .getEnd()) {
+                        runs[recordRun].markDone();
+                    }
+                }
+
+            }
+
+        }
+        if (outputIndex > 0)
+
+        {
+            writeBlock(output, outputBuffer, outputIndex);
+        }
+        input.close();
+        output.close();
+    }
+
+}
